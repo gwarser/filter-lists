@@ -1,0 +1,87 @@
+﻿[uBlock Origin]
+! Title: My filters list
+! Expires: 7 days
+! Description: Personal filter list (My filters)
+! ———
+!
+! ——— delayed loading
+pl##html:style(opacity: 1.0 !important)
+||cdn.ampproject.org/v0.js$script,redirect=ampproject.org/v0.js
+!
+! ——— gmail tracking
+*/cleardot.gif$image,redirect=1x1-transparent.gif
+*/cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
+! ——— external images
+||googleusercontent.com/proxy$domain=mail.google.com
+!
+! ——— override FETL whitelisting
+/ga_setup.js$first-party,important
+-google-analytics/$first-party,important
+-google-analytics.$first-party,important
+/googleanalytics.js$first-party,important
+/google-analytics.$first-party,important
+!
+! ——— disable PWA button in Fx mobile
+!#if env_mobile
+*$csp=manifest-src 'none'
+!#endif
+!
+! ——— total wp untracking
+||wp.pl^$third-party,domain=~wp.pl
+||wpimg.pl^$third-party,domain=~wp.pl
+!
+! ——— youtube
+/annotations_module.js$important,domain=youtube.com
+! ——— rickroll
+||youtube.com/*dQw4w9WgXcQ$document
+/endscreen.js$script,domain=youtube.com
+!
+! ——— bandwidhth savings
+.gif|$document
+! ——— be sure it's mp4/webm
+.gif$image,domain=gfycat.com|imgur.com
+!
+! ——— old reddit
+reddit.com##.redesign-beta-optin
+reddit.com##body.listing-page a > .gilded-icon,.buttons.flat-list > .give-gold-button
+!
+! ——— placeholders (for imagus)
+|https://www.wykop.pl/cdn/c2526412/no-picture.jpg
+|https://www.wykop.pl/cdn/c3397992/avatar_def.png
+! ——— show spoilers by default
+wykop.pl##.showSpoiler
+wykop.pl##code.dnone:style(display: inline !important)
+! ——— wołaj!
+wykop.pl##ul.sub>li:if(:scope .text:has-text(/\bwo(l|ł)aj\b/i))
+! ——— wołanie do mirkolist
+wykop.pl##ul.sub>li:if(:scope code:has-text(/^\s*@/)):if(code>a:nth-of-type(20))
+! ——— embed, share
+wykop.pl###itemsStream .embed-button,#itemsStream .social-show
+wykop.pl###itemsStream .link:has(.article.preview.blacklisted)
+!
+! ——— huge unrelated images in articles
+||gallery.dpcdn.pl/img*/g_-_960x$image
+! ——— allow access to images
+dobreprogramy.pl##.overlay
+!
+! ——— only selected langs in sidebar
+wikipedia.org###p-lang > .body > ul > .interlanguage-link:not(.interwiki-en):not(.interwiki-pl)
+!
+! ——— mark visited bugzilla links in "The first official ... builds are out"
+forums.mozillazine.org##a:visited[href^="https://bugzilla.mozilla.org/show_bug.cgi"]:style(color: red !important;)
+!
+! ——— disqus.com/*/embed.js whitelist
+florydziak.com###sidebar-after-post-content
+@@||disqus.com/embed.js$script,domain=florydziak.com
+@@||disqus.com/forums/*/embed.js$script,domain=florydziak.com
+!
+! ——— "start free trial" dialog
+endomondo.com##.MonthTrialPopup,.modal-backdrop
+!
+! ——— image on top
+||new.meteo.pl/baner_s.php$image
+!
+! ——— annoying submenu
+telepolis.pl##.submenu
+!
+! ——— END
