@@ -69,6 +69,8 @@ wikipedia.org###p-lang > .body > ul > .interlanguage-link:not(.interwiki-en):not
 !
 ! ——— mark visited bugzilla links in "The first official ... builds are out"
 forums.mozillazine.org##a:visited[href^="https://bugzilla.mozilla.org/show_bug.cgi"]:style(color: red !important;)
+! ——— next thread links in current tab
+forums.mozillazine.org##+js(remove-attr.js, target, a[target="_blank"])
 !
 ! ——— disqus.com/*/embed.js whitelist
 florydziak.com###sidebar-after-post-content
