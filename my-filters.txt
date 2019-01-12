@@ -32,9 +32,11 @@ pl##html:style(opacity: 1.0 !important)
 !
 ! ——— youtube
 /annotations_module.js$important,domain=youtube.com
+/endscreen.js$script,domain=youtube.com
+! ——— privacy policy
+youtube.com###dialog,.opened
 ! ——— rickroll
 ||youtube.com/*dQw4w9WgXcQ$document
-/endscreen.js$script,domain=youtube.com
 !
 ! ——— bandwidhth savings
 .gif|$document
