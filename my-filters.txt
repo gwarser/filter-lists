@@ -5,7 +5,7 @@
 ! ———
 !
 ! ——— delayed loading
-pl##html:style(opacity: 1.0 !important)
+pl##html:style(opacity: 1.0 !important;)
 ||cdn.ampproject.org/v0.js$script,redirect=ampproject.org/v0.js
 !
 ! ——— gmail tracking
@@ -52,7 +52,7 @@ reddit.com##body.listing-page a > .gilded-icon,.buttons.flat-list > .give-gold-b
 |https://www.wykop.pl/cdn/c3397992/avatar_def.png
 ! ——— show spoilers by default
 wykop.pl##.showSpoiler
-wykop.pl##code.dnone:style(display: inline !important)
+wykop.pl##code.dnone:style(display: inline !important;)
 ! ——— wołaj!
 wykop.pl##ul.sub>li:if(:scope .text:has-text(/\bwo(l|ł)aj\b/i))
 ! ——— wołanie do mirkolist
@@ -73,6 +73,10 @@ wikipedia.org###p-lang > .body > ul > .interlanguage-link:not(.interwiki-en):not
 forums.mozillazine.org##a:visited[href^="https://bugzilla.mozilla.org/show_bug.cgi"]:style(color: red !important;)
 ! ——— next thread links in current tab
 forums.mozillazine.org##+js(remove-attr.js, target, a[target="_blank"])
+!
+! ——— unpin header
+bugzilla.mozilla.org###wrapper:style(overflow: auto !important; display: block !important;)
+bugzilla.mozilla.org###bugzilla-body:style(overflow-y: auto !important;)
 !
 ! ——— disqus.com/*/embed.js whitelist
 florydziak.com###sidebar-after-post-content
