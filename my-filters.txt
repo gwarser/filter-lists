@@ -37,12 +37,6 @@ pl##html:style(opacity: 1.0 !important;)
 youtube.com###dialog,.opened
 ! ——— rickroll
 ||youtube.com/*dQw4w9WgXcQ$document
-! ——— remove ugly gradient behind video controls
-youtube.com,youtube-nocookie.com##.ytp-gradient-top, .ytp-gradient-bottom
-!#if env_chromium
-! ——— in native player
-com,net,org##video::-webkit-media-controls-panel:style(background: none !important;)
-!#endif
 !
 ! ——— bandwidhth savings
 .gif|$document
