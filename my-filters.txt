@@ -46,6 +46,10 @@ youtube.com###dialog,.opened
 ! ——— old reddit
 reddit.com##.redesign-beta-optin
 reddit.com##body.listing-page a > .gilded-icon,.buttons.flat-list > .give-gold-button
+! ——— specific cookie notice for mobile
+!#if env_mobile
+reddit.com##.EUCookieNotice
+!#endif
 !
 ! ——— placeholders (for imagus)
 |https://www.wykop.pl/cdn/c2526412/no-picture.jpg
