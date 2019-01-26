@@ -78,6 +78,8 @@ forums.mozillazine.org##+js(remove-attr.js, target, a[target="_blank"])
 bugzilla.mozilla.org###wrapper:style(overflow: auto !important; display: block !important;)
 bugzilla.mozilla.org###bugzilla-body:style(overflow-y: auto !important;)
 !
+! ——— disqus, annoying emoticons
+disqus.com###reactions
 ! ——— disqus.com/*/embed.js whitelist
 florydziak.com###sidebar-after-post-content
 @@||disqus.com/embed.js$script,domain=florydziak.com
