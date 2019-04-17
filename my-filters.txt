@@ -69,6 +69,7 @@ wykop.pl###itemsStream .link:has(.article.preview.blacklisted)
 !
 ! ——— huge unrelated images in articles
 ||gallery.dpcdn.pl/img*/g_-_960x$image
+dobreprogramy.pl##.image-heading.image
 ! ——— allow access to images
 dobreprogramy.pl##.overlay
 !
