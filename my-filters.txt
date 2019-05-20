@@ -1,7 +1,8 @@
 ﻿[uBlock Origin]
 ! Title: My filters list
-! Expires: 7 days
 ! Description: Personal filter list (My filters)
+! Homepage: https://github.com/gwarser/filter-lists
+! Expires: 7 days
 ! ———
 !
 ! ——— delayed loading
