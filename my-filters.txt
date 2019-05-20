@@ -102,4 +102,7 @@ endomondo.com##body:style(overflow:auto!important)
 ! ——— annoying submenu
 telepolis.pl##.submenu
 !
+! ——— fix noscript
+purepc.pl##^div[style*="background:yellow;color:#000"]:nth-ancestor(1)
+!
 ! ——— END
