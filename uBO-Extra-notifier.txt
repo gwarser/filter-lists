@@ -2,6 +2,7 @@
 ! Title: uBO-Extra notifier
 ! Expires: 30 days
 ! Description: Displays mesage on pages where uBO-Extra is usefull
+! Homepage: https://github.com/gwarser/filter-lists
 ! ———
 !
 ! ———
