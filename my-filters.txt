@@ -40,9 +40,9 @@ youtube.com###dialog,.opened
 ||youtube.com/*dQw4w9WgXcQ$document
 !
 ! ——— bandwidhth savings
-.gif|$document
+.gif^$document
 ! ——— be sure it's mp4/webm
-.gif$image,domain=gfycat.com|imgur.com
+.gif^$image,domain=gfycat.com|imgur.com
 !
 ! ——— old reddit
 reddit.com##.redesign-beta-optin
