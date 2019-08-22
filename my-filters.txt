@@ -15,13 +15,6 @@ pl##html:style(opacity: 1.0 !important;)
 ! ——— external images
 ||googleusercontent.com/proxy$domain=mail.google.com
 !
-! ——— override FETL whitelisting
-/ga_setup.js$first-party,important
--google-analytics/$first-party,important
--google-analytics.$first-party,important
-/googleanalytics.js$first-party,important
-/google-analytics.$first-party,important
-!
 ! ——— disable PWA button in Fx mobile
 !#if env_mobile
 *$csp=manifest-src 'none'
