@@ -86,10 +86,6 @@ florydziak.com###sidebar-after-post-content
 @@||disqus.com/embed.js$script,domain=florydziak.com
 @@||disqus.com/forums/*/embed.js$script,domain=florydziak.com
 !
-! ——— "start free trial" dialog
-endomondo.com##.MonthTrialPopup,.modal-backdrop
-endomondo.com##body:style(overflow:auto!important)
-!
 ! ——— image on top
 ||new.meteo.pl/baner_s.php$image
 !
