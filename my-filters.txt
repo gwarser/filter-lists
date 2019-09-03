@@ -95,4 +95,7 @@ telepolis.pl##.submenu
 ! ——— fix noscript
 purepc.pl##^div[style*="background:yellow;color:#000"]:nth-ancestor(1)
 !
+! ——— uAssets/commit/bf477ba87882c8eb64861b7e0b95e023475fd4c0
+||report-uri.com^$all
+!
 ! ——— END
