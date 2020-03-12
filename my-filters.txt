@@ -25,7 +25,7 @@ pl##html:style(opacity: 1.0 !important;)
 ||wpimg.pl^$third-party,domain=~wp.pl
 !
 ! ——— youtube
-/annotations_module.js$important,domain=youtube.com
+/annotations_module.js$script,important,domain=youtube.com
 /endscreen.js$script,domain=youtube.com
 ! ——— privacy policy
 youtube.com###dialog,.opened
