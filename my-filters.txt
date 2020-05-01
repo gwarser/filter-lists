@@ -98,4 +98,8 @@ purepc.pl##^div[style*="background:yellow;color:#000"]:nth-ancestor(1)
 ! ——— uAssets/commit/bf477ba87882c8eb64861b7e0b95e023475fd4c0
 ||report-uri.com^$all
 !
+! ——— forced login, make pake lighter
+||telepolis.pl/|$csp=img-src 'none'
+||telepolis.pl/logowanie|$csp=img-src 'none'
+!
 ! ——— END
