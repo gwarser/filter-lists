@@ -102,4 +102,7 @@ purepc.pl##^div[style*="background:yellow;color:#000"]:nth-ancestor(1)
 ||telepolis.pl/|$csp=img-src 'none'
 ||telepolis.pl/logowanie|$csp=img-src 'none'
 !
+! ——— internal benchmark, http://localhost:8080/requests_top500.json
+@@||localhost:8080/requests_top500$xhr
+!
 ! ——— END
