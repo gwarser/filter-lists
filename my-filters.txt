@@ -7,11 +7,11 @@
 !
 ! ——— delayed loading
 *##html,body:style(opacity:1.0!important;)
-||cdn.ampproject.org/v0.js$script,redirect=ampproject.org/v0.js
+||cdn.ampproject.org/v0.js$script,redirect=ampproject_v0.js
 !
 ! ——— gmail tracking
-*/cleardot.gif$image,redirect=1x1-transparent.gif
-*/cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
+*/cleardot.gif$image,redirect=1x1.gif
+*/cleardot.gif$xmlhttprequest,redirect=1x1.gif
 ! ——— external images
 ||googleusercontent.com/proxy$domain=mail.google.com
 !
