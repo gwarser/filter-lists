@@ -30,7 +30,7 @@
 ! ——— privacy policy
 youtube.com###dialog,.opened
 ! ——— rickroll
-||youtube.com/*dQw4w9WgXcQ$document
+dQw4w9WgXcQ$document,xhr,domain=youtube.com
 !
 ! ——— bandwidhth savings
 .gif^$document
