@@ -6,7 +6,7 @@
 ! ———
 !
 ! ——— delayed loading
-pl##html:style(opacity: 1.0 !important;)
+*##html,body:style(opacity:1.0!important;)
 ||cdn.ampproject.org/v0.js$script,redirect=ampproject.org/v0.js
 !
 ! ——— gmail tracking
