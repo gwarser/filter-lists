@@ -105,4 +105,7 @@ purepc.pl##^div[style*="background:yellow;color:#000"]:nth-ancestor(1)
 ! ——— internal benchmark, http://localhost:8080/requests_top500.json
 @@||localhost:8080/requests_top500$xhr
 !
+! ——— noise in mod log
+reddit.com###siteTable.modactionlisting.sitetable .modactions.editflair:nth-ancestor(2)
+!
 ! ——— END
