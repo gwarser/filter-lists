@@ -27,8 +27,6 @@
 ! ——— youtube
 /annotations_module.js$script,important,domain=youtube.com
 /endscreen.js$script,important,domain=youtube.com
-! ——— privacy policy
-youtube.com###dialog,.opened
 ! ——— rickroll
 dQw4w9WgXcQ$document,xhr,domain=youtube.com
 !
