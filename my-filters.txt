@@ -20,10 +20,6 @@
 *$csp=manifest-src 'none'
 !#endif
 !
-! ——— total wp untracking
-||wp.pl^$third-party,domain=~wp.pl
-||wpimg.pl^$third-party,domain=~wp.pl
-!
 ! ——— youtube
 /annotations_module.js$script,important,domain=youtube.com
 /endscreen.js$script,important,domain=youtube.com
@@ -87,18 +83,11 @@ florydziak.com###sidebar-after-post-content
 ! ——— image on top
 ||new.meteo.pl/baner_s.php$image
 !
-! ——— annoying submenu
-telepolis.pl##.submenu
-!
 ! ——— fix noscript
 purepc.pl##^div[style*="background:yellow;color:#000"]:nth-ancestor(1)
 !
 ! ——— uAssets/commit/bf477ba87882c8eb64861b7e0b95e023475fd4c0
 ||report-uri.com^$all
-!
-! ——— forced login, make pake lighter
-||telepolis.pl/|$csp=img-src 'none'
-||telepolis.pl/logowanie|$csp=img-src 'none'
 !
 ! ——— internal benchmark, http://localhost:8080/requests_top500.json
 @@||localhost:8080/requests_top500$xhr
