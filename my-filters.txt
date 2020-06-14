@@ -28,8 +28,6 @@ dQw4w9WgXcQ$document,xhr,domain=youtube.com
 !
 ! ——— bandwidhth savings
 .gif^$document
-! ——— be sure it's mp4/webm
-.gif^$image,domain=gfycat.com|imgur.com
 !
 ! ——— old reddit
 reddit.com##.redesign-beta-optin
