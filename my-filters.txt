@@ -93,7 +93,8 @@ purepc.pl##^div[style*="background:yellow;color:#000"]:nth-ancestor(1)
 ! ——— noise in mod log
 reddit.com###siteTable.modactionlisting.sitetable .modactions.editflair:nth-ancestor(2)
 !
-! ——— grofers.com sentry data-collection/fingerprinting uAssets/pull/7924
+! ——— exploitation of users for code testing
 ||sentry.io^$3p,important
+||bugsnag.com^$3p,important
 !
 ! ——— END
