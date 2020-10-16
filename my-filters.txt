@@ -60,7 +60,7 @@ dobreprogramy.pl##.image-heading.image
 dobreprogramy.pl##.overlay
 !
 ! ——— only selected langs in sidebar
-wikipedia.org###p-lang > .body > ul > .interlanguage-link:not(.interwiki-en):not(.interwiki-pl)
+wikipedia.org###p-lang ul > .interlanguage-link:not(.interwiki-en):not(.interwiki-pl)
 !
 ! ——— mark visited bugzilla links in "The first official ... builds are out"
 forums.mozillazine.org##a:visited[href^="https://bugzilla.mozilla.org/show_bug.cgi"]:style(color: red !important;)
