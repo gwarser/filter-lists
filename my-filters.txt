@@ -27,7 +27,7 @@
 dQw4w9WgXcQ$document,xhr,domain=youtube.com
 !
 ! ——— bandwidhth savings
-.gif^$document
+.gif|$document
 !
 ! ——— old reddit
 reddit.com##.redesign-beta-optin
@@ -65,7 +65,7 @@ wikipedia.org###p-lang ul > .interlanguage-link:not(.interwiki-en):not(.interwik
 ! ——— mark visited bugzilla links in "The first official ... builds are out"
 forums.mozillazine.org##a:visited[href^="https://bugzilla.mozilla.org/show_bug.cgi"]:style(color: red !important;)
 ! ——— next thread links in current tab
-forums.mozillazine.org##+js(remove-attr.js, target, a[target="_blank"])
+forums.mozillazine.org##+js(remove-attr, target, a[target="_blank"])
 !
 ! ——— unpin header
 bugzilla.mozilla.org###wrapper:style(overflow: auto !important; display: block !important;)
