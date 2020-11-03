@@ -54,7 +54,7 @@ wykop.pl##code.dnone:style(display: inline !important;)
 ! ——— wołaj!
 wykop.pl##ul.sub>li:if(:scope .text:has-text(/\bwo(l|ł)aj\b/i))
 ! ——— wołanie do mirkolist
-wykop.pl##ul.sub>li:if(:scope code:has-text(/^\s*@/)):if(code>a:nth-of-type(20))
+www.wykop.pl##ul.sub>li a:nth-of-type(20):upward(ul.sub>li):has-text(/(@[^@]+){20}/)
 ! ——— embed, share
 wykop.pl###itemsStream .embed-button,#itemsStream .social-show
 wykop.pl###itemsStream .link:has(.article.preview.blacklisted)
