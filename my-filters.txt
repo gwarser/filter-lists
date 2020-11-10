@@ -47,8 +47,6 @@ reddit.com##.EUCookieNotice
 ! ——— RPAN
 ||redd.it/*.m3u8^$xhr,domain=reddit.com
 ||strapi.reddit.com^$xhr,domain=reddit.com
-! ——— chat scripts
-||redditstatic.com/_chat.*.js$script,domain=reddit.com
 !
 ! ——— placeholders (for imagus)
 |https://www.wykop.pl/cdn/c2526412/no-picture.jpg
