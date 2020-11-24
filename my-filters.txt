@@ -86,10 +86,6 @@ bugzilla.mozilla.org###bugzilla-body:style(overflow-y: auto !important;)
 !
 ! ——— disqus, annoying emoticons
 disqus.com###reactions
-! ——— disqus.com/*/embed.js whitelist
-florydziak.com###sidebar-after-post-content
-@@||disqus.com/embed.js$script,domain=florydziak.com
-@@||disqus.com/forums/*/embed.js$script,domain=florydziak.com
 !
 ! ——— image on top
 ||new.meteo.pl/baner_s.php$image
