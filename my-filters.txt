@@ -23,8 +23,6 @@
 ! ——— youtube
 /annotations_module.js$script,important,domain=youtube.com
 /endscreen.js$script,important,domain=youtube.com
-! ——— hide overlays on pause
-www.youtube.com##.html5-video-player.paused-mode .ytp-gradient-top, .html5-video-player.paused-mode .ytp-gradient-bottom, .html5-video-player.paused-mode .ytp-chrome-top, .html5-video-player.paused-mode .ytp-chrome-bottom:style(opacity:0!important; transition:opacity 1s !important;)
 ! ——— rickroll
 dQw4w9WgXcQ$document,xhr,domain=youtube.com
 ! login
