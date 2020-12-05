@@ -27,12 +27,17 @@
 www.youtube.com##.html5-video-player.paused-mode .ytp-gradient-top, .html5-video-player.paused-mode .ytp-gradient-bottom, .html5-video-player.paused-mode .ytp-chrome-top, .html5-video-player.paused-mode .ytp-chrome-bottom:style(opacity:0!important; transition:opacity 1s !important;)
 ! ——— rickroll
 dQw4w9WgXcQ$document,xhr,domain=youtube.com
-! ——— login and consent dialogs
+! login
 youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
 youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
-youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
 youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
+! probably this one is also neded, but I cannot reproduce anymore
+youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
+! consent
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
 youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+!new, after search
+youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
 !
 ! ——— bandwidhth savings
 .gif|$document
