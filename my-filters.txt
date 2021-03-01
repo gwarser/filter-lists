@@ -83,10 +83,6 @@ forums.mozillazine.org##a:visited[href^="https://bugzilla.mozilla.org/show_bug.c
 ! ——— next thread links in current tab
 forums.mozillazine.org##+js(remove-attr, target, a[target="_blank"])
 !
-! ——— unpin header
-bugzilla.mozilla.org###wrapper:style(overflow: auto !important; display: block !important;)
-bugzilla.mozilla.org###bugzilla-body:style(overflow-y: auto !important;)
-!
 ! ——— disqus, annoying emoticons
 disqus.com###reactions
 !
