@@ -23,7 +23,9 @@
 ! ——— youtube
 /annotations_module.js$script,important,domain=youtube.com
 /endscreen.js$script,important,domain=youtube.com
-! ——— rickroll
+! player on channel pages
+youtube.com##ytd-channel-video-player-renderer:remove()
+! rickroll
 dQw4w9WgXcQ$document,xhr,domain=youtube.com
 ! login
 youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
