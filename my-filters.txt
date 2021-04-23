@@ -69,7 +69,7 @@ www.wykop.pl##ul.sub>li a:nth-of-type(20):upward(ul.sub>li):has-text(/(@[^@]+){2
 wykop.pl###itemsStream .embed-button,#itemsStream .social-show
 wykop.pl###itemsStream .link:has(.article.preview.blacklisted)
 ! ——— no new tabs for articles 
-wykop.pl##+js(ra, target, a[target="_blank"])
+wykop.pl##+js(disable-newtab-links)
 !
 ! ——— huge unrelated images in articles
 ||gallery.dpcdn.pl/img*/g_-_960x$image
