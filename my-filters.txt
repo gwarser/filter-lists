@@ -23,6 +23,8 @@
 ! ——— youtube
 /annotations_module.js$script,important,domain=youtube.com
 /endscreen.js$script,important,domain=youtube.com
+! seeking
+youtube.com##.ytp-time-seeking
 ! player on channel pages
 youtube.com##ytd-channel-video-player-renderer:remove()
 ! rickroll
