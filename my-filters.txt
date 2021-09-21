@@ -110,4 +110,7 @@ reddit.com###siteTable.modactionlisting.sitetable .modactions.editflair:nth-ance
 ! ——— IDN protection https://twitter.com/gorhill/status/1422914791077732352
 ||xn--$doc,frame
 !
+! ——— annoying scrolling
+morele.net##+js(set, scrollTo, noopFunc)
+!
 ! ——— END
