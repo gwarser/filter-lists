@@ -107,4 +107,7 @@ reddit.com###siteTable.modactionlisting.sitetable .modactions.editflair:nth-ance
 ||sentry.io^$3p,important
 ||bugsnag.com^$3p,important
 !
+! ——— IDN protection https://twitter.com/gorhill/status/1422914791077732352
+||xn--$doc,frame
+!
 ! ——— END
