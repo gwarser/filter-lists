@@ -115,4 +115,38 @@ reddit.com###siteTable.modactionlisting.sitetable .modactions.editflair:nth-ance
 ! ——— annoying scrolling
 morele.net##+js(set, scrollTo, noopFunc)
 !
+! ——— Twitter
+! From https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_twitter
+! My Timeline - no inserted sections (Who to follow/Topics to follow, etc.)
+twitter.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(>div:only-child:empty, article, [href^="/i/status/"], [role="progressbar"]))
+! Other Timelines - no inserted sections (Who to follow/Topics to follow, etc.)
+twitter.com##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(>div:only-child:empty, article, [href^="/i/status/"], [role="progressbar"]))
+! [User] liked
+twitter.com##article [d$="13.157H12z"]:upward(article)
+! [User] Retweeted
+twitter.com##:is([aria-label="Timeline: Your Home Timeline"], [aria-label$="’s Tweets"]) article [d^="M23.615 15.477c"]:upward(article)
+! [User] received a reply
+twitter.com##article [d$="43-7.787-7.8-7.788z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/))
+twitter.com##article [d$="43-7.787-7.8-7.788z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/))+div
+! [User] received replies
+twitter.com##article [d$="43-7.787-7.8-7.788z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replies$/))
+twitter.com##article>div:first-child:not(:last-child):upward([style*="position: absolute"])
+! [User] replied
+twitter.com##article [d$="43-7.787-7.8-7.788z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/))
+twitter.com##article [d$="43-7.787-7.8-7.788z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/))+div
+! Follow/Recommended Topic
+twitter.com##article [aria-label^="Follow Topic"]:upward(article)
+! Like and Retweet counts
+twitter.com##[data-testid="retweet"], [data-testid="like"]
+! More Tweets
+twitter.com##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])
+twitter.com##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])~div
+!
+! Sidebar - Topics to follow
+twitter.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
+! Sidebar - Trending now/Trends for you
+twitter.com##[aria-label$="trending now" i]
+! Sidebar - Who to follow/You might like
+twitter.com##[aria-label="who to follow" i]
+!
 ! ——— END
