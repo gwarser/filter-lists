@@ -149,4 +149,10 @@ twitter.com##[aria-label$="trending now" i]
 ! Sidebar - Who to follow/You might like
 twitter.com##[aria-label="who to follow" i]
 !
+! ——— Telepolis
+! block images on home page
+|https://www.telepolis.pl/|$csp=img-src 'none'
+! block auto pagination
+||www.telepolis.pl/next/*$xhr,domain=www.telepolis.pl
+!
 ! ——— END
