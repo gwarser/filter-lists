@@ -38,8 +38,9 @@ youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
 ! consent
 youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
 youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
-!new, after search
 youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+! some videos redirect persistently to consent page:
+youtube.com##+js(set, ytInitialData.onResponseReceivedEndpoints, undefined)
 !
 ! ——— bandwidhth savings
 .gif|$document
