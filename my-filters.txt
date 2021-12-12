@@ -6,7 +6,6 @@
 ! ———
 !
 ! ——— delayed loading
-*##html,body:style(opacity:1.0!important;)
 ||cdn.ampproject.org/v0.js$script,redirect=ampproject_v0.js
 !
 ! ——— gmail tracking
