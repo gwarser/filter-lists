@@ -72,6 +72,8 @@ wykop.pl###itemsStream .embed-button,#itemsStream .social-show
 wykop.pl###itemsStream .link:has(.article.preview.blacklisted)
 ! ——— meczyki
 www.wykop.pl##.wgt-meczyki
+! ——— sponsored
+wykop.pl##li.link:has(a[href*='wykop.pl/link/partnerredirect/'])
 !
 ! ——— huge unrelated images in articles
 ||gallery.dpcdn.pl/img*/g_-_960x$image
