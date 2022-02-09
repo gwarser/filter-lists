@@ -74,6 +74,8 @@ wykop.pl###itemsStream .link:has(.article.preview.blacklisted)
 www.wykop.pl##.wgt-meczyki
 ! ——— sponsored
 wykop.pl##li.link:has(a[href*='wykop.pl/link/partnerredirect/'])
+! ——— popularne, ale nie podobne
+www.wykop.pl##.link-list-popular>h4:has-text(/^Ostatnio popularne$/):upward(.link-list-popular.r-block)
 !
 ! ——— huge unrelated images in articles
 ||gallery.dpcdn.pl/img*/g_-_960x$image
