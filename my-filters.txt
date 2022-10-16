@@ -40,6 +40,8 @@ youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.co
 youtube.com##+js(json-prune, [].response.overlay.consentBumpV2Renderer topbar.desktopTopbarRenderer.interstitial.consentBumpV2Renderer overlay.consentBumpV2Renderer response.overlay.consentBumpV2Renderer)
 ! some videos redirect persistently to consent page:
 youtube.com##+js(set, ytInitialData.onResponseReceivedEndpoints, undefined)
+! Consent on #shorts
+youtube.com##+js(set, ytInitialData.desktopTopbar.desktopTopbarRenderer.interstitial.consentBumpV2Renderer, undefined)
 ! ——— get rid of subtitles that are force-enabled by default
 www.youtube.com##.ytp-caption-segment,.ytp-subtitles-button
 !
