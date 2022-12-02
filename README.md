@@ -12,8 +12,6 @@ Click on list name, or copy-paste raw link to uBO Filter lists Custom section.
 
    You can also use CDNs to reduce load on GitHub:
    ```
-   https://gitcdn.xyz/repo/uBlockOrigin/uAssets/master/filters/lan-block.txt
    https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssets@master/filters/lan-block.txt
    https://cdn.statically.io/gh/uBlockOrigin/uAssets/master/filters/lan-block.txt
-   https://combinatronics.io/uBlockOrigin/uAssets/master/filters/lan-block.txt
    ```
