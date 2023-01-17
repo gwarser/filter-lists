@@ -55,12 +55,6 @@ reddit.com##.onboardingbar
 reddit.com##.EUCookieNotice
 !#endif
 !
-! ——— huge unrelated images in articles
-||gallery.dpcdn.pl/img*/g_-_960x$image
-dobreprogramy.pl##.image-heading.image
-! ——— allow access to images
-dobreprogramy.pl##.overlay
-!
 ! ——— only selected langs in sidebar
 wikipedia.org###p-lang ul > .interlanguage-link:not(.interwiki-en):not(.interwiki-pl)
 !
