@@ -45,9 +45,6 @@ youtube.com##+js(set, ytInitialData.desktopTopbar.desktopTopbarRenderer.intersti
 ! ——— get rid of subtitles that are force-enabled by default
 www.youtube.com##.ytp-caption-segment,.ytp-subtitles-button
 !
-! ——— bandwidhth savings
-.gif|$document
-!
 ! ——— old reddit
 reddit.com##.redesign-beta-optin
 reddit.com##.gilded-icon, .give-gold-button
