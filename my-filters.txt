@@ -54,9 +54,6 @@ reddit.com##.onboardingbar
 !#if env_mobile
 reddit.com##.EUCookieNotice
 !#endif
-! ——— RPAN
-||redd.it/*.m3u8^$xhr,domain=reddit.com
-||strapi.reddit.com^$xhr,domain=reddit.com
 !
 ! ——— huge unrelated images in articles
 ||gallery.dpcdn.pl/img*/g_-_960x$image
