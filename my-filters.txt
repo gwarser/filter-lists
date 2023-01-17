@@ -61,26 +61,6 @@ reddit.com##.EUCookieNotice
 ||redd.it/*.m3u8^$xhr,domain=reddit.com
 ||strapi.reddit.com^$xhr,domain=reddit.com
 !
-! ——— placeholders (for imagus)
-|https://www.wykop.pl/cdn/c2526412/no-picture.jpg
-|https://www.wykop.pl/cdn/c3397992/avatar_def.png
-! ——— show spoilers by default
-wykop.pl##.showSpoiler
-wykop.pl##code.dnone:style(display: inline !important;)
-! ——— wołaj!
-wykop.pl##ul.sub>li:if(:scope .text:has-text(/\bwo(l|ł)aj\b/i))
-! ——— wołanie do mirkolist
-www.wykop.pl##ul.sub>li a:nth-of-type(20):upward(ul.sub>li):has-text(/(@[^@]+){20}/)
-! ——— embed, share
-wykop.pl###itemsStream .embed-button,#itemsStream .social-show
-wykop.pl###itemsStream .link:has(.article.preview.blacklisted)
-! ——— meczyki
-www.wykop.pl##.wgt-meczyki
-! ——— sponsored
-wykop.pl##li.link:has(a[href*='wykop.pl/link/partnerredirect/'])
-! ——— popularne, ale nie podobne
-www.wykop.pl##.link-list-popular>h4:has-text(/^Ostatnio popularne$/):upward(.link-list-popular.r-block)
-!
 ! ——— huge unrelated images in articles
 ||gallery.dpcdn.pl/img*/g_-_960x$image
 dobreprogramy.pl##.image-heading.image
