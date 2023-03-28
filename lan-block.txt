@@ -79,6 +79,7 @@
 ||routerlogin.net^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||samsung.router^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||speedport.ip^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+||steamloopback.host^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||tplinkwifi.net^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||web.setup^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||web.setup.home^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
