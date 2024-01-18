@@ -1,8 +1,7 @@
 ﻿[uBlock Origin]
-! Title: Replace this list by "Privacy" -> "Block Outsider Intrusion into LAN" entry above in uBO or version from uBlockOrigin/uAssets:
-! https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/lan-block.txt
+! Title: Block Outsider Intrusion into LAN - strict version
+! Description: Prevents public internet sites from digging into your local LAN files. No exceptions allowed.
 ! Expires: 30 days
-! Description: Prevents public internet sites from digging into your local LAN files.
 ! Requested here: https://github.com/uBlockOrigin/uAssets/issues/4318
 ! Revived for: https://github.com/uBlockOrigin/uBlock-issues/issues/1070
 ! Homepage: https://github.com/gwarser/filter-lists
